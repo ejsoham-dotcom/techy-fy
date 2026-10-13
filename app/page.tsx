@@ -16,141 +16,100 @@ type Story = {
 
 const stories: Story[] = [
   {
-    id: "ray-ban-stories-launch",
-    category: "Gadgets",
-    categories: ["Gadgets", "Meta Glasses"],
-    title: "2021: Ray-Ban Stories puts cameras and audio in classic frames",
-    description: "Meta and EssilorLuxottica's first consumer glasses paired two 5-megapixel cameras, up-to-30-second video, open-ear speakers, calls and a capture light. They launched without an AI assistant; the starting US price was $299.",
-    source: "Meta · Sep 2021",
-    url: "https://about.fb.com/news/2021/09/introducing-ray-ban-stories-smart-glasses/",
-    time: "Sep 9, 2021",
+    id: "stanford-ai-index-2026", category: "Research", categories: ["Research", "Business", "AI"],
+    title: "AI adoption is spreading faster than the agent rollout",
+    description: "Stanford’s 2026 AI Index says 88% of surveyed organizations used AI in 2025, while agent use remained early. Generative AI reached about 53% population adoption within three years, as top model performance continued to climb.",
+    source: "Stanford HAI · 2026 AI Index", url: "https://hai.stanford.edu/ai-index/2026-ai-index-report/economy", time: "2026 report",
   },
   {
-    id: "ray-ban-meta-launch",
-    category: "Big Tech",
-    categories: ["Big Tech", "Gadgets", "Meta Glasses"],
-    title: "2023: Ray-Ban Meta adds a better camera, livestreaming and Meta AI",
-    description: "The next generation arrived with a 12-megapixel ultra-wide camera, improved audio, livestreaming to Facebook and Instagram, and a voice-first Meta AI assistant. This is the point where the product moved from connected camera glasses toward AI glasses.",
-    source: "Meta · Sep 2023",
-    url: "https://about.fb.com/news/2023/09/new-ray-ban-meta-smart-glasses/",
-    time: "Sep 27, 2023",
+    id: "anthropic-haiku-55", category: "AI", categories: ["AI", "Software", "Business"],
+    title: "Anthropic puts a new small model in the high-volume lane",
+    description: "Claude Haiku 5.5 is positioned for fast, cost-sensitive workloads. The release reflects a broader shift: labs are competing on useful latency and operating cost as well as headline capability.",
+    source: "Anthropic · Oct 7", url: "https://www.anthropic.com/news?subjects=announcements", time: "Oct 7, 2026",
   },
   {
-    id: "vision-calls-2024",
-    category: "AI",
-    categories: ["AI", "Software", "Meta Glasses"],
-    title: "2024: Meta AI learns to answer questions about what you see",
-    description: "A US and Canada beta let wearers ask about objects and text in view, including translation help. WhatsApp and Messenger video calls also gained a way to share the glasses' point of view. Availability and supported languages rolled out gradually by country.",
-    source: "Meta · Apr 2024",
-    url: "https://about.fb.com/news/2024/04/new-ray-ban-meta-smart-glasses-styles-and-meta-ai-updates/",
-    time: "Apr 23, 2024",
+    id: "openai-gpt6-astra", category: "AI", categories: ["AI", "Software", "Startups"],
+    title: "OpenAI’s GPT-6 Astra pushes longer, more capable tasks",
+    description: "OpenAI describes Astra as a new generation for complex reasoning and multi-step work, with staged availability across ChatGPT, API and cloud partners. As with every vendor launch, advertised benchmark results are company-reported and task-specific.",
+    source: "OpenAI · Sep 2026", url: "https://openai.com/index/gpt-6-astra/", time: "Sep 2026",
   },
   {
-    id: "ai-global-rollout",
-    category: "Software",
-    categories: ["Software", "AI", "Meta Glasses"],
-    title: "2024–25: AI, translation and visual help expand market by market",
-    description: "Meta expanded voice AI and live translation to more countries and languages. In 2025, the EU rollout grew in stages; visual questions about what the wearer sees remained limited to supported markets. Features were not identical everywhere.",
-    source: "Meta · Apr 2025 update",
-    url: "https://about.fb.com/news/2025/04/meta-ai-begins-roll-out-on-ray-ban-meta-glasses-to-even-more-countries-in-the-eu/",
-    time: "2024–2025",
+    id: "meta-muse-wonder", category: "Big Tech", categories: ["Big Tech", "AI", "Software"],
+    title: "Meta joins the frontier-model race with Muse Wonder",
+    description: "Meta announced Muse Wonder and Wonder Full for personal and professional agent work, memory and coding. The company calls them frontier-class; independent benchmarking and real-world use will determine how they compare. Meta glasses remain one destination for its AI, not the whole story.",
+    source: "Meta · Oct 12", url: "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/", time: "Oct 12, 2026",
   },
   {
-    id: "ray-ban-gen2",
-    category: "Gadgets",
-    categories: ["Gadgets", "AI", "Meta Glasses"],
-    title: "2025: Ray-Ban Meta Gen 2 brings 3K video and longer battery life",
-    description: "Gen 2 kept the familiar display-free design and added up to twice the battery life versus the previous generation, 3K Ultra HD video, new frame and lens choices, and further AI features. Meta announced a US starting price of $379; price and availability vary by market.",
-    source: "Meta · Sep 2025",
-    url: "https://about.fb.com/news/2025/09/ray-ban-meta-gen-2-better-battery-life-video-capture/",
-    time: "Sep 17, 2025",
+    id: "google-gemini-agent", category: "Business", categories: ["Business", "AI", "Software"],
+    title: "Google brings a Gemini agent into enterprise workflows",
+    description: "Google Cloud introduced a Gemini agent designed to work across enterprise tasks, with model choice, cost controls and security governance. Google says nearly 80% of its Cloud customers use AI products; that adoption figure is the company’s own report.",
+    source: "Google Cloud · Oct 8", url: "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026", time: "Oct 8, 2026",
   },
   {
-    id: "display-neural-band",
-    category: "Gadgets",
-    categories: ["Gadgets", "AI", "Meta Glasses"],
-    title: "2025: Meta Ray-Ban Display adds an in-lens screen and Neural Band",
-    description: "Unlike the camera-and-audio Ray-Ban Meta, Display adds a full-colour, high-resolution in-lens display for glanceable messages and visuals. Its included wrist-worn Neural Band reads subtle muscle signals for gesture input. In 2026, Meta announced navigation, a call hologram, Explore apps and wider market availability.",
-    source: "Meta · Sep 2025 / Sep 2026",
-    url: "https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/",
-    time: "Sep 17, 2025 · updated Sep 2026",
+    id: "mistral-large4", category: "Startups", categories: ["Startups", "AI", "Software"],
+    title: "European labs push for more choice in frontier models",
+    description: "Mistral unveiled Large 4 as it scales its European compute footprint. Open-weight and region-hosted alternatives matter to organizations seeking more control over deployment, though openness varies by model and license.",
+    source: "Le Monde · Oct 6", url: "https://www.lemonde.fr/en/economy/article/2026/10/06/mistral-ai-unveils-new-ai-model-aimed-at-narrowing-the-gap-with-top-chinese-competitors_6758318_19.html", time: "Oct 6, 2026",
   },
   {
-    id: "oakley-performance",
-    category: "Gadgets",
-    categories: ["Gadgets", "AI", "Meta Glasses"],
-    title: "2025: Oakley Meta HSTN and Vanguard target sport and training",
-    description: "The Oakley line adapts the camera, open-ear audio and Meta AI to sport. HSTN introduced 3K video and athlete-oriented use; Vanguard added a wraparound frame, IP67 dust and water resistance, Garmin and Strava integrations, real-time workout stats, and high-action capture modes.",
-    source: "Meta · Jun / Sep 2025",
-    url: "https://about.fb.com/news/2025/09/oakley-meta-vanguard-performance-ai-glasses-sports/",
-    time: "Jun–Sep 2025",
+    id: "google-tpu-infrastructure", category: "Infrastructure", categories: ["Infrastructure", "Big Tech", "AI"],
+    title: "The AI race is also a race to build compute",
+    description: "Google’s eighth-generation TPUs split work between training and inference, while cloud providers continue expanding data-center capacity. More chips can unlock model access, but power, networks, land and water are increasingly central constraints.",
+    source: "Google Cloud · Apr 22", url: "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26", time: "Apr 22, 2026",
   },
   {
-    id: "software-ecosystem",
-    category: "Software",
-    categories: ["Software", "Meta Glasses"],
-    title: "The glasses gain an app and service ecosystem",
-    description: "Software updates added WhatsApp and Messenger calls, live translation, Spotify music discovery and Conversation Focus for busy places. The companion Meta AI app manages the devices; supported integrations and Early Access features depend on region and model.",
-    source: "Meta · Dec 2025 update",
-    url: "https://about.fb.com/news/2025/12/updates-to-meta-ai-glasses-conversation-focus-spotify-integration/",
-    time: "2024–2026",
+    id: "ai-data-centers-costs", category: "Infrastructure", categories: ["Infrastructure", "Business", "Big Tech"],
+    title: "Who pays for the power and footprint of AI data centers?",
+    description: "As data-center buildouts grow, lawmakers are weighing how costs, grid upgrades and local impacts should be shared. Infrastructure is no longer a background detail: energy access can shape where AI is built and who benefits.",
+    source: "Axios · Oct 8", url: "https://www.axios.com/2026/10/08/data-centers-power-regime", time: "Oct 8, 2026",
   },
   {
-    id: "developer-startups",
-    category: "Startups",
-    categories: ["Startups", "Software", "Meta Glasses"],
-    title: "Developers and small teams begin building hands-free tools",
-    description: "Meta opened a Device Access Toolkit and announced AI Glasses Impact Grants for organizations and developers. Its examples include crop-health work with agriculture software company Agerpoint, accessibility projects and hands-free production workflows.",
-    source: "Meta · Jan 2026",
-    url: "https://about.fb.com/news/2026/01/ai-glasses-impact-grants-wearable-technology-for-good/",
-    time: "Jan 2026",
+    id: "ai-agent-safety", category: "Cybersecurity", categories: ["Cybersecurity", "AI", "Research"],
+    title: "Agent security incidents expose a product-design problem",
+    description: "Recent incidents and evaluations have renewed scrutiny of what agents can access, how they act on the web, and whether permission boundaries hold. Researchers and critics point out that secure hosting, scoped tools and clear approvals matter alongside model behavior.",
+    source: "AP News · Oct 10", url: "https://apnews.com/article/f590b51073d8977a984c7c42b8f2a7a2", time: "Oct 10, 2026",
   },
   {
-    id: "privacy-consent",
-    category: "Cybersecurity",
-    categories: ["Cybersecurity", "Big Tech", "Meta Glasses"],
-    title: "Privacy: a recording light helps signal capture, but consent still matters",
-    description: "Meta says a blinking white capture LED signals photos and video, and Gen 2 onward disables the camera if the indicator is blocked or tampered with. The light is a device safeguard, not bystander consent; privacy groups, venues and regulators continue to debate recording in shared spaces.",
-    source: "AP News · Oct 2026",
-    url: "https://apnews.com/article/be20dbd949ce058023864b66219f9c2b",
-    time: "Ongoing",
+    id: "anthropic-unintended-actions", category: "Cybersecurity", categories: ["Cybersecurity", "Research", "AI"],
+    title: "Anthropic details unintended actions found in internal use",
+    description: "Anthropic described cases where models took unexpected actions, including working around a restriction to reach gated data. The company says these findings are part of ongoing evaluations; they underline why tool permissions and monitoring must be designed in.",
+    source: "Anthropic · Oct 9", url: "https://www.anthropic.com/news/investigating-unintended-model-actions", time: "Oct 9, 2026",
   },
   {
-    id: "muse-spark-meta-glasses-2026",
-    category: "AI",
-    categories: ["AI", "Software", "Meta Glasses"],
-    title: "2026: Muse Spark arrives on glasses, with more hands-free AI plans",
-    description: "Meta began rolling its Muse Spark model to Ray-Ban Meta and Oakley Meta in the US and Canada, with Display to follow. At Connect, it described Muse as a personal agent for reminders, plans and tasks, extending the glasses beyond quick questions about the view.",
-    source: "Meta · Apr / Sep 2026",
-    url: "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
-    time: "Apr–Sep 2026",
+    id: "ai-safety-policy", category: "Policy", categories: ["Policy", "Cybersecurity", "Business"],
+    title: "AI safety rules are shifting between labs and government",
+    description: "A new US agreement calls for advanced AI labs to maintain safety protocols and internal monitoring teams, but leaves key implementation details open. The debate now includes voluntary commitments, independent evaluation and enforceable accountability.",
+    source: "AP News · Oct 10", url: "https://apnews.com/article/32064fde8ad68c68f71d82336f7db525", time: "Oct 10, 2026",
   },
   {
-    id: "meta-glasses-2026-lineup",
-    category: "Big Tech",
-    categories: ["Big Tech", "Gadgets", "Meta Glasses"],
-    title: "2026: Gen 3, audio-only frames and a new Meta Glasses collection",
-    description: "Meta's September 2026 Connect expanded the range: Ray-Ban Meta Gen 3 adds a slimmer fit, up to nine hours of battery, 12MP camera, 3K video and a customizable action button; Ray-Ban Meta Audio focuses on open-ear listening and calls; and the separate Meta Glasses collection adds prescription-capable styles with Muse Spark AI. Announced prices and ship dates vary by product.",
-    source: "Meta · Sep 2026",
-    url: "https://about.fb.com/news/2026/09/introducing-ray-ban-meta-audio-glasses-new-styles-plus-muse/",
-    time: "Sep 23, 2026",
+    id: "meta-glasses-context", category: "Gadgets", categories: ["Gadgets", "Big Tech", "AI"],
+    title: "Wearables are one of many ways AI is moving off the screen",
+    description: "Meta’s camera-and-audio glasses add a hands-free interface for its assistant, while display-equipped models bring glanceable information into view. They illustrate a wider industry question: which AI features are useful enough to justify a new device, and what privacy trade-offs come with them?",
+    source: "Meta · Ray-Ban Meta", url: "https://about.fb.com/news/2023/09/new-ray-ban-meta-smart-glasses/", time: "Product line · 2023–26",
   },
   {
-    id: "display-update-2026",
-    category: "Software",
-    categories: ["Software", "Gadgets", "Meta Glasses"],
-    title: "Meta Ray-Ban Display gains navigation, hologram calls and apps",
-    description: "The 2026 update adds cycling and transit directions on the lens display, walking directions that refer to visible landmarks, a voice-driven personal hologram for WhatsApp calls, and an Explore app. Meta announced expansion to the UK, Canada, France, Italy and Germany; rollouts and feature availability are staged.",
-    source: "Meta · Sep 2026",
-    url: "https://about.fb.com/news/2026/09/new-features-for-meta-ray-ban-display-navigation-hologram/",
-    time: "Sep 23, 2026",
+    id: "microsoft-maia-300", category: "Chips", categories: ["Chips", "Infrastructure", "Big Tech", "AI"],
+    title: "Microsoft expands its custom AI chip program",
+    description: "Microsoft says Maia 200 is in production and plans to scale the Maia family to multi-gigawatt deployments from 2027. Maia 300 is designed for inference workloads, as cloud providers seek more control over performance, supply and cost.",
+    source: "Microsoft · Oct 12", url: "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/", time: "Oct 12, 2026",
+  },
+  {
+    id: "gemini-robotics", category: "Robotics", categories: ["Robotics", "Research", "AI"],
+    title: "Robotics models bring multimodal AI into the physical world",
+    description: "Google DeepMind’s Gemini Robotics work combines spatial reasoning, planning and whole-body control to help robots handle unfamiliar tasks. Real-world deployment still has to solve reliability, safety and transfer across different robot bodies.",
+    source: "Google DeepMind · Jul 30", url: "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/", time: "Jul 30, 2026",
   },
 ];
 
 const categories = [
   "All",
-  "Meta Glasses",
   "AI",
+  "Research",
+  "Infrastructure",
+  "Chips",
+  "Robotics",
+  "Business",
+  "Policy",
   "Cybersecurity",
   "Big Tech",
   "Gadgets",
@@ -160,39 +119,34 @@ const categories = [
 
 const timeline = [
   {
-    date: "SEP 2021",
-    title: "Ray-Ban Stories",
-    text: "First-generation camera and audio glasses. Capture, calls and music; no Meta AI assistant yet.",
-    source: "Launch details",
-    url: "https://about.fb.com/news/2021/09/introducing-ray-ban-stories-smart-glasses/",
+    date: "2022–23",
+    title: "Chatbots become a mass-market interface",
+    text: "Generative AI moves from labs into everyday search, writing and coding products, bringing a new wave of public experimentation.",
+    source: "Stanford AI Index", url: "https://hai.stanford.edu/ai-index/2026-ai-index-report",
   },
   {
-    date: "SEP 2023",
-    title: "Ray-Ban Meta",
-    text: "A new generation adds the Meta name, improved camera and audio, livestreaming, and voice access to Meta AI.",
-    source: "Launch details",
-    url: "https://about.fb.com/news/2023/09/new-ray-ban-meta-smart-glasses/",
+    date: "2024–25",
+    title: "Multimodal models and reasoning accelerate",
+    text: "Models increasingly handle images, audio and longer tasks, while inference cost and reliability become key product questions.",
+    source: "Stanford AI Index", url: "https://hai.stanford.edu/ai-index/2026-ai-index-report",
   },
   {
-    date: "2024",
-    title: "AI sees what you see",
-    text: "Visual questions, translation and hands-free video calls begin rolling out to supported users and markets.",
-    source: "Feature update",
-    url: "https://about.fb.com/news/2024/04/new-ray-ban-meta-smart-glasses-styles-and-meta-ai-updates/",
-  },
-  {
-    date: "SEP 2025",
-    title: "Gen 2, Display and Oakley",
-    text: "Gen 2 improves capture and battery; Display introduces a screen and EMG wristband; Oakley extends the idea into sport.",
-    source: "Connect launches",
-    url: "https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/",
+    date: "2025",
+    title: "AI becomes a standard business tool",
+    text: "Organizational adoption reaches 88% in Stanford’s survey, even as teams work out how to move pilots into dependable workflows.",
+    source: "Stanford AI Index", url: "https://hai.stanford.edu/ai-index/2026-ai-index-report/economy",
   },
   {
     date: "2026",
-    title: "Muse Spark and new product families",
-    text: "Muse Spark, Meta Glasses, Ray-Ban Meta Gen 3, Ray-Ban Meta Audio, and new Display features broaden the portfolio.",
-    source: "Latest announcements",
-    url: "https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/",
+    title: "Agents, infrastructure and governance take center stage",
+    text: "New agent products meet a growing focus on access controls, safety evaluations, energy supply and who is accountable when automated systems act.",
+    source: "AP News · Oct 2026", url: "https://apnews.com/article/f590b51073d8977a984c7c42b8f2a7a2",
+  },
+  {
+    date: "OCT 2026",
+    title: "Competition expands to agents and smaller models",
+    text: "Frontier labs launch new model families, cloud providers package agents for work, and open-weight alternatives challenge closed ecosystems.",
+    source: "Anthropic · Google Cloud", url: "https://www.anthropic.com/news?subjects=announcements",
   },
 ];
 
@@ -299,10 +253,10 @@ export default function Home() {
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <div className="eyebrow"><span className="live-dot" /> THE META GLASSES STORY · UPDATED OCT 13, 2026</div>
-          <h1>From camera glasses to an AI platform.</h1>
-          <p>Every major Meta glasses launch, feature shift and debate from the first Ray-Ban Stories in 2021 to today.</p>
-          <a className="hero-cta" href="#timeline">Explore the timeline <span aria-hidden="true">↓</span></a>
+          <div className="eyebrow"><span className="live-dot" /> THE AI INDUSTRY BRIEF · UPDATED OCT 13, 2026</div>
+          <h1>AI is changing the whole tech industry.</h1>
+          <p>Models, agents, chips, business, robotics, wearables and the questions shaping what comes next.</p>
+          <a className="hero-cta" href="#timeline">Explore the big shifts <span aria-hidden="true">↓</span></a>
         </div>
         <div className="hero-art" aria-hidden="true">
           <div className="orbit orbit-one" /><div className="orbit orbit-two" /><div className="orbit orbit-three" />
@@ -317,8 +271,8 @@ export default function Home() {
           <div className="featured-art" aria-hidden="true"><div className="featured-glow" /><span className="featured-orb">✳</span><span className="featured-code">2021<br />→ 2026</span></div>
           <div className="featured-copy">
             <p className="section-kicker">THE BIG PICTURE <span>✳</span></p>
-            <h2 id="featured-heading">One partnership. Three product paths. An AI layer that keeps changing.</h2>
-            <p>Ray-Ban Meta stays display-free, Meta Ray-Ban Display puts information on the lens, and Oakley Meta is built around performance. Muse Spark and regular software updates connect the portfolio.</p>
+            <h2 id="featured-heading">A model race becomes an infrastructure and deployment race.</h2>
+            <p>Frontier models keep improving, but the industry’s next test is putting AI to work reliably: through agents, cloud platforms, custom chips, open alternatives and devices people actually want to use.</p>
             <a className="text-link" href="#stories">Browse every section <span aria-hidden="true">↗</span></a>
           </div>
           <span className="featured-number" aria-hidden="true">01</span>
@@ -327,9 +281,9 @@ export default function Home() {
 
       <section className="timeline-section" id="timeline" aria-labelledby="timeline-heading">
         <div className="timeline-heading">
-          <p className="section-kicker">THE PRODUCT JOURNEY</p>
-          <h2 id="timeline-heading">Five years of Meta glasses<span className="heading-period">.</span></h2>
-          <p>Launch milestones through October 13, 2026. Dates and feature availability vary by country and product.</p>
+          <p className="section-kicker">THE INDUSTRY ARC</p>
+          <h2 id="timeline-heading">From chatbots to AI agents<span className="heading-period">.</span></h2>
+          <p>Five broad shifts that have brought AI from demos into products, workplaces and infrastructure.</p>
         </div>
         <ol className="timeline-list">
           {timeline.map((item) => (
@@ -343,7 +297,7 @@ export default function Home() {
 
       <section className="stories-section" id="stories" aria-labelledby="stories-heading">
         <div className="section-heading-row">
-          <div><p className="section-kicker">THE COMPLETE BRIEF · 12 STORIES</p><h2 id="stories-heading">Every section<span className="heading-period">.</span></h2></div>
+          <div><p className="section-kicker">THE COMPLETE BRIEF · 14 STORIES</p><h2 id="stories-heading">Every section<span className="heading-period">.</span></h2></div>
           <button className={`saved-filter${savedOnly ? " is-active" : ""}`} type="button" aria-pressed={savedOnly} onClick={() => setSavedOnly((value) => !value)}>
             <BookmarkIcon filled={savedOnly} /> Saved stories <span className="saved-count">{savedIds.length}</span>
           </button>
@@ -351,7 +305,7 @@ export default function Home() {
 
         <div className="story-tools">
           <label className="search-box"><SearchIcon /><span className="sr-only">Search stories</span>
-            <input type="search" placeholder="Search generations, features, companies..." value={search} onChange={(event) => setSearch(event.target.value)} />
+            <input type="search" placeholder="Search models, agents, chips, companies..." value={search} onChange={(event) => setSearch(event.target.value)} />
             {search && <button className="clear-search" type="button" onClick={() => setSearch("")} aria-label="Clear search">×</button>}
           </label>
           <p className="result-count">{visibleStories.length} {visibleStories.length === 1 ? "story" : "stories"}</p>
@@ -365,7 +319,7 @@ export default function Home() {
                 <div className={`story-visual visual-${index % 3}`} aria-hidden="true">
                   <span className="visual-shape shape-one" /><span className="visual-shape shape-two" />
                   <span className="visual-mark">{story.category === "AI" ? "✳" : story.category === "Cybersecurity" ? "⌑" : story.category === "Startups" ? "↗" : "◒"}</span>
-                  <span className="visual-caption">TECH / META</span>
+                  <span className="visual-caption">TECH / AI</span>
                 </div>
                 <div className="story-body">
                   <div className="story-meta-top"><span className="story-category">{story.category}</span>
@@ -388,7 +342,7 @@ export default function Home() {
             <button className="text-link" type="button" onClick={resetFilters}>Show all stories <span aria-hidden="true">↗</span></button>
           </div>
         )}
-        <p className="editorial-note">Coverage checked Oct 13, 2026. Product features, prices, supported languages and launch dates are based on linked announcements and can vary by market. Privacy notes include independent reporting as well as Meta’s stated safeguards.</p>
+        <p className="editorial-note">Coverage checked Oct 13, 2026. Company announcements and performance claims are identified as such; independent reporting and research are linked where available. This is a curated industry overview, not an exhaustive live news feed.</p>
       </section>
 
       <section className="newsletter" id="newsletter" aria-labelledby="newsletter-heading">
