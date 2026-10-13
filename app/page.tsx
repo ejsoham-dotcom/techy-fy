@@ -232,7 +232,7 @@ export default function Home() {
       <header className="site-header">
         <div className="header-inner">
           <a className="brand" href="#top" aria-label="Techy.fy home"><img src="/logo.jpg.png" alt="Techy.fy" /></a>
-          <p className="tagline">What happened in tech in the last 24 hours?</p>
+          <p className="tagline">The AI industry, beyond the hype.</p>
           <a className="header-link" href="#newsletter">Get the daily brief <span aria-hidden="true">↗</span></a>
         </div>
       </header>
@@ -268,7 +268,7 @@ export default function Home() {
 
       <section className="featured-wrap" aria-labelledby="featured-heading">
         <div className="featured-card">
-          <div className="featured-art" aria-hidden="true"><div className="featured-glow" /><span className="featured-orb">✳</span><span className="featured-code">2021<br />→ 2026</span></div>
+          <div className="featured-art" aria-hidden="true"><div className="featured-glow" /><span className="featured-orb">✳</span><span className="featured-code">MODELS<br />→ AGENTS</span></div>
           <div className="featured-copy">
             <p className="section-kicker">THE BIG PICTURE <span>✳</span></p>
             <h2 id="featured-heading">A model race becomes an infrastructure and deployment race.</h2>
